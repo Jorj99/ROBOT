@@ -13,13 +13,6 @@ export default function Home() {
         <title>Jorj</title>
       </Head>
       <Welcome />
-      {/* <Portfolio />
-      <OurClients />
-      <Catalog /> */}
-      {/* <div>
-        <Form />
-      </div> */}
-      {/* <Explanation /> */}
     </div>
   );
 }
