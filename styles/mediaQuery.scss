@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1638px) {
+  .container {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    padding: 0 6.3%;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  h5 {
+    font-size: 14px;
+  }
+  p,
+  a,
+  .link {
+    font-size: 15px;
+  }
+}

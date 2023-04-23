@@ -1,0 +1,181 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "../styles/nullStyle.scss";
+@import "../styles/burger.scss";
+@import "../styles/navbarAnimation.scss";
+@import "../styles/mediaQuery.scss";
+@import "../styles/404.scss";
+
+#root {
+  white-space: pre-line;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  font-size: 78px;
+  letter-spacing: 0.11em;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+h2, .Typewriter > span {
+  font-size: 46px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+h5 {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+p,
+pre {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  line-height: 1.8em;
+}
+pre {
+  white-space: break-spaces;
+  font-family: "Poppins";
+}
+
+a,
+.link {
+  font-weight: 500;
+  font-size: 18px;
+  &:active {
+    color: #13728b;
+  }
+}
+
+.container {
+  // padding: 0 6.3%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+// react-flow global styles
+.connectable {
+  opacity: 0;
+}
+.react-flow__attribution {
+  visibility: hidden;
+}
+//slick-slider dots  global styles
+.slick-dots {
+  height: 60px;
+  position: static !important;
+}
+
+._animated {
+  transform: translate(0px, -29px) scale(1, 0.7);
+  visibility: hidden !important;
+}
+
+._transition {
+  transition: all 1s ease;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #012739 !important;
+}
+
+
+.bg_image_gray {
+  background-color: #000000ad;
+}
+
+.running_line {
+  height: 90px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.running_line div {
+  text-align: center;
+  text-transform: uppercase;
+  animation: text 5s infinite linear;
+  padding-left: 100%;
+  white-space: nowrap;
+  word-spacing: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+  h1, .Typewriter > span {
+    font-size: 60px;
+  }
+  h2, .Typewriter > span {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+
+  a,
+  p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 656px) {
+  h1, .Typewriter > span {
+    font-size: 35px;
+  }
+  h2, .Typewriter > span {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 19px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+
+  a,
+  p {
+    font-size: 12px;
+  }
+}
+
+.Typewriter {
+  width: fit-content;
+}
+
+.Typewriter span {
+  color: #813e5f;
+  white-space: nowrap;
+}
+
+.Typewriter__cursor {
+  color: #0d6ba5f7 !important
+}
+
+#typewriter_splash_screen > .Typewriter__wrapper {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+#typewriter_splash_screen > .Typewriter__wrapper  div {
+  flex-basis: 100%;
+}

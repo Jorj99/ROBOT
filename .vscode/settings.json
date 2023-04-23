@@ -1,0 +1,9 @@
+{
+    "workbench.localHistory.enabled": true,
+    "scss.lint.unknownAtRules": "ignore",
+    "cSpell.words": [
+        "DWIN",
+        "tailwindcss",
+        "transparant"
+    ]
+}
