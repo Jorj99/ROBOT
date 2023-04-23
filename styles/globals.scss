@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 @import "../styles/nullStyle.scss";
-@import "../styles/burger.scss";
-@import "../styles/navbarAnimation.scss";
 @import "../styles/mediaQuery.scss";
 @import "../styles/404.scss";
 
@@ -70,52 +68,6 @@ a,
   // padding: 0 6.3%;
   width: 100%;
   margin: 0 auto;
-}
-
-// react-flow global styles
-.connectable {
-  opacity: 0;
-}
-.react-flow__attribution {
-  visibility: hidden;
-}
-//slick-slider dots  global styles
-.slick-dots {
-  height: 60px;
-  position: static !important;
-}
-
-._animated {
-  transform: translate(0px, -29px) scale(1, 0.7);
-  visibility: hidden !important;
-}
-
-._transition {
-  transition: all 1s ease;
-}
-
-.slick-prev:before,
-.slick-next:before {
-  color: #012739 !important;
-}
-
-
-.bg_image_gray {
-  background-color: #000000ad;
-}
-
-.running_line {
-  height: 90px;
-  margin: 0 auto;
-  overflow: hidden;
-}
-.running_line div {
-  text-align: center;
-  text-transform: uppercase;
-  animation: text 5s infinite linear;
-  padding-left: 100%;
-  white-space: nowrap;
-  word-spacing: 30px;
 }
 
 @media only screen and (max-width: 900px) {

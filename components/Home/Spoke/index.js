@@ -32,7 +32,8 @@ function Dictaphone() {
       const maleVoice = voices.find(
         (voice) => voice.name === "Google UK English Male"
       );
-      console.log("question --> ", transcript, " answere --> ", text);
+      // eslint-disable-next-line no-console
+      console.log(`QUESTION --> ${transcript} ANSWER -->  ${text}`);
       speak({ text, voice: maleVoice });
     };
 
